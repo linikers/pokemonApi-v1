@@ -1,0 +1,45 @@
+/* Monte sua estilização aqui */
+:root {
+    --color-base-red: #ff2229;
+    --coloar-base-yelow: #ffbf1c;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    align-items: center;
+}
+
+.poke__top {
+    background-color: var(--color-base-red);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poke__top > button {
+    border: none;
+    
+}
+.poke__search {
+    display: flex;
+}
+
+.poke__result {
+    background-color: var(--coloar-base-yelow);
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon__img {
+    width: 200px;
+    height: 200px;
+}

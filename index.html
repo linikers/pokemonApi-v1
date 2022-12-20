@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/styles/index.css">
+
+    <!--Scripts-->
+    <script type = "module" src="./src/scripts/index.js" defer></script>
+    <script type = "module" src="./src/scripts/requests.js" defer></script>
+    
+    <title>Consumindo PokeAPI</title>
+  </head>
+  <main>
+    <header class="poke__top">
+      
+      <figure>
+        <img src="./src/assets/imgs/pokeapi.png" alt="pokeLogo">
+      </figure>
+
+      <form class="poke__search">
+        <input type="text">
+        <button><img src="./src/assets/imgs/search-icon.png" alt="search"></button>
+      </form>
+      
+    </header>
+
+    <section class="poke__result">
+      <h2 class="pokemon__name"></h2>
+      <span class="pokemon__number"></span>
+      <figure class="pokemon__figure">
+        <img class="pokemon__img" alt="">
+      </figure>
+      <span class="pokemon__description">Descrição</span>
+
+    </section>
+
+    
+  </main>
+  <body></body>
+</html>
